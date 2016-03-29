@@ -666,7 +666,19 @@ footer {
     width: 100%; }
 
   .carousel-wrapper {
-    display: none; } }
+    display: none; } 
+  
+    footer{
+     left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  
+}
+
 .carousel-wrapper {
   width: 66%;
   height: 100%;
